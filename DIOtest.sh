@@ -7,7 +7,7 @@ sudo adduser mtsnlinux --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --dis
 echo password | sudo chpasswd
 
 echo "Installing DIO test software..."
-sudo git clone https://github.com/rsenegor-bpc/finalDIO.git /home/mtsnlinux/Desktop
+sudo git clone https://github.com/rsenegor-bpc/finalDIO_nolog.git /home/mtsnlinux/Desktop
 
 cd /home/mtsnlinux/Desktop
 cd powerdaq-3.6.26
