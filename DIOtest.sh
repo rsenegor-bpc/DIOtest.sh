@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "Installing updates..."
-sudo apt-get update
-
 sudo adduser mtsnlinux --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password
 echo password | sudo chpasswd
 
