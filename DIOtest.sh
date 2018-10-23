@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd ..
 cd Desktop
 cd powerdaq-3.6.26
 
